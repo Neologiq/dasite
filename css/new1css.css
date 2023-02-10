@@ -269,7 +269,7 @@ main section.banner .container h3 {
         font-size: 20px
     }
     
-     main section.banner .services-grid {
+     main section.banner .banner-grid {
             display: -ms-grid;
             display: grid;
             -ms-grid-columns: (1fr)[1];
