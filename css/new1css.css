@@ -268,6 +268,15 @@ main section.banner .container h3 {
     main section.banner .container h3 {
         font-size: 20px
     }
+    
+     main section.banner .services-grid {
+            display: -ms-grid;
+            display: grid;
+            -ms-grid-columns: (1fr)[2];
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap: 16px
+        }
+    
 }
 
 main .services {
@@ -282,8 +291,8 @@ main .services {
         main .services .container .services-grid {
             display: -ms-grid;
             display: grid;
-            -ms-grid-columns: (1fr)[2];
-            grid-template-columns: repeat(2, 1fr);
+            -ms-grid-columns: (5fr)[2];
+            grid-template-columns: repeat(5, 1fr);
             grid-gap: 16px
         }
 
