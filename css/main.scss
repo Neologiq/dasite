@@ -254,7 +254,7 @@ main {
 				grid-gap: 16px;
 
 				@media (max-width: 1024px) {
-					grid-template-columns: repeat(2, 1fr);
+					grid-template-columns: repeat(1, 2fr);
 				}
 
 				@media (max-width: 767px) {
